@@ -22,7 +22,9 @@ var api = new ParseServer({
     classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
   },
   
-  
+  verifyUserEmails: true,
+  publicServerURL: 'https://wkblocal.herokuapp.com/parse',
+  appName: 'Parse App',
   emailAdapter: {
  module: 'parse-server-simple-mailgun-adapter',
  options: {
