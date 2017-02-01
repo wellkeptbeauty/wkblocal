@@ -27,19 +27,19 @@ var api = new ParseServer({
  module: 'parse-server-simple-mailgun-adapter',
  options: {
  fromAddress: process.env.EMAIL_FROM || "noreply@wellkeptbeauty.com",
- domain: process.env.MAILGUN_DOMAIN || "example.com",
+ domain: process.env.MAILGUN_DOMAIN || "sandbox284d4402a6c74d92b8394c59de4f5f91.mailgun.org",
  apiKey: process.env.MAILGUN_API_KEY || "key-fc1b81ab9684eb7f3982129f64067e7b",
  // Verification email subject
- verificationSubject: 'Please verify your e-mail for wellkeptbeauty',
- // Verification email body
- verificationBody: 'Hi,\n\nYou are being asked to confirm the e-mail address %email% with %appname%\n\nClick here to confirm it:\n%link%',
+//  verificationSubject: 'Please verify your e-mail for wellkeptbeauty',
+//  // Verification email body
+//  verificationBody: 'Hi,\n\nYou are being asked to confirm the e-mail address %email% with %appname%\n\nClick here to confirm it:\n%link%',
 
-// Password reset email subject
- passwordResetSubject: 'Password Reset Request for wellkeptbeauty',
- // Password reset email body
- passwordResetBody: 'Hi,\n\nYou requested a password reset for %appname%.\n\nClick here to reset it:\n%link%',
- //OPTIONAL (will send HTML version of email):
- passwordResetBodyHTML: "<!--DOCTYPE html>........"
+// // Password reset email subject
+//  passwordResetSubject: 'Password Reset Request for wellkeptbeauty',
+//  // Password reset email body
+//  passwordResetBody: 'Hi,\n\nYou requested a password reset for %appname%.\n\nClick here to reset it:\n%link%',
+//  //OPTIONAL (will send HTML version of email):
+//  passwordResetBodyHTML: "<!--DOCTYPE html>........"
  }
  }
   
