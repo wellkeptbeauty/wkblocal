@@ -6,8 +6,8 @@ function mycoolection() {
 }
 mycoolection();
 var Parse = require('parse/node');
-Parse.initialize('8PsWDzjb8gZN8I2ytJCKQiA4wP8hiL5jRt4hecwI', 'XlEdqca7cbDXkjU47QUJsjzFWY2K50jWfpDWTSkh', '41tclTmcekJEnOzBcHTULQptqfndEMiAtN6VeGin');
-Parse.serverURL = 'https://wellkeptbeauty.herokuapp.com/parse/';
+Parse.initialize('rtAwZgAp1n3wLWENA7QIBCx9KqwiuEL1REI2o6Xa', 'gZ0CA5Y62bJiXWVaPAsBHCXaLK6ZdbeSWLU09mrD', 'pKDFFTbtPrrzava6k3nXngkkupsHkeKjjGxp4TZk');
+Parse.serverURL = 'https://wkblocal.herokuapp.com/parse/';
 
  var query = new Parse.Query("MyCollection");
         query.include('PurchasedUserID');
