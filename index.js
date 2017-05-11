@@ -18,20 +18,20 @@ var api = new ParseServer({
   masterKey: process.env.MASTER_KEY || 'pKDFFTbtPrrzava6k3nXngkkupsHkeKjjGxp4TZk', //Add your master key here. Keep it secret!
   fileKey:process.env.FILE_KEY || 'efb90c48-072f-439e-b841-b8dc455de16b', //Add your filekey here.
   serverURL: process.env.SERVER_URL || 'https://wkblocal.herokuapp.com/parse',  // Don't forget to change to https if needed
-  
-   ios: [
-    {
-      pfx:__dirname + '/certificates/development.p12',
-      bundleId: 'com.wellkeptbeauty',
-      production: false
-    },
-       {
-      pfx: '', // Prod PFX or P12
-      bundleId: 'com.wellkeptbeauty',  
-      production: true // Prod
-    }
-  ]
-}, 
+//   push: {
+//    ios: [
+//     {
+//       pfx:__dirname + '/certificates/development.p12',
+//       bundleId: 'com.wellkeptbeauty',
+//       production: false
+//     },
+//        {
+//       pfx: '', // Prod PFX or P12
+//       bundleId: 'com.wellkeptbeauty',  
+//       production: true // Prod
+//     }
+//   ]
+// }, 
   
   liveQuery: {
     classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
