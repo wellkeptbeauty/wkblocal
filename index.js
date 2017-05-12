@@ -21,7 +21,7 @@ var api = new ParseServer({
   push: {
    ios: [
     {
-      pfx:__dirname + '/certificates/development.p12',
+      pfx:__dirname + '/certificates/pushfordevelopment.p12,
       bundleId: 'com.wellkeptbeauty',
       production: false
     },
