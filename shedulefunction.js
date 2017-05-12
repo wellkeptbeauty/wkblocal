@@ -34,7 +34,7 @@ var message="Hello Beautiful! Your "+res[i].get('PProductName')+" expires today.
 
   var payload = {
 	  title:"Well-Kept Beauty",
-    message: message,
+    alert: message,
 	  sound: "default",
 	    badge: 1,
             'content-available': 1
