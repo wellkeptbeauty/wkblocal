@@ -20,11 +20,11 @@ var api = new ParseServer({
   serverURL: process.env.SERVER_URL || 'https://wkblocal.herokuapp.com/parse',  // Don't forget to change to https if needed
   push: {
    ios: [
-    {
-      pfx:__dirname + '/certificates/pushfordevelopment.p12',
-      bundleId: 'com.wellkeptbeauty',
-      production: false
-    },
+//     {
+//       pfx:__dirname + '/certificates/pushfordevelopment.p12',
+//       bundleId: 'com.wellkeptbeauty',
+//       production: false
+//     },
        {
       pfx: __dirname + '/certificates/pushfordistribution.p12', // Prod PFX or P12
       bundleId: 'com.wellkeptbeauty',  
