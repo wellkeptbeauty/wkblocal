@@ -40,7 +40,7 @@ var api = new ParseServer({
   verifyUserEmails: true,
   publicServerURL: 'https://wkblocal.herokuapp.com/parse',
  // appName: 'Parse App',
-  appName: 'WellkeptBeauty App',
+  appName: 'Well-Kept Beauty App',
   emailAdapter: {
  module: 'parse-server-simple-mailgun-adapter',
  options: {
