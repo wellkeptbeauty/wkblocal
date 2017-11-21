@@ -27,7 +27,7 @@ var api = new ParseServer({
     }
      //,
 //        {
-//       pfx: __dirname + '/certificates/pushfordistribution.p12', // Prod PFX or P12
+//       pfx: __dirname + '/certificates/pushfordistributionwell.p12', // Prod PFX or P12
 //       bundleId: 'com.wellkeptbeauty',  
 //       production: true // Prod
 //     }
