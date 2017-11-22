@@ -21,16 +21,16 @@ var api = new ParseServer({
   push: {
    ios: [
     {
-      pfx:__dirname + '/certificates/pushfordevelopmentwell.p12',
-      bundleId: 'com.wellkeptbeauty',
-      production: false
-    }
-     //,
-//        {
-//       pfx: __dirname + '/certificates/pushfordistributionwell.p12', // Prod PFX or P12
-//       bundleId: 'com.wellkeptbeauty',  
-//       production: true // Prod
+//       pfx:__dirname + '/certificates/pushfordevelopmentwell.p12',
+//       bundleId: 'com.wellkeptbeauty',
+//       production: false
 //     }
+//      //,
+       {
+      pfx: __dirname + '/certificates/pushfordistributionwell.p12', // Prod PFX or P12
+      bundleId: 'com.wellkeptbeauty',  
+      production: true // Prod
+    }
   ]
 }, 
   
