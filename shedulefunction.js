@@ -28,7 +28,7 @@ Parse.serverURL = 'https://wkblocal.herokuapp.com/parse/';
 	console.log("inner query is",email);
 	console.log("product name is"+res[i].get('PProductName'));
 	
-var message="Hello Beautiful! Your "+res[i].get('PProductName')+" expires today.Make sure to toss it and order a new one!";
+var message="Hello Beautiful! Your "+res[i].get('PProductName')+" expires today. Make sure to toss it and order a new one!";
 
   // here you can add other conditions e.g. to send a push to sepcific users or channel etc.
 
